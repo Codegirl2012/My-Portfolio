@@ -1,0 +1,181 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #fff;
+}
+
+/* NAVBAR */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #242424;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+nav a {
+  color: #9c9c9c;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #cf0303;
+}
+
+.icons i {
+  color: #9c9c9c;
+  margin-left: 15px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.icons i:hover {
+  color: #ff0000;
+}
+
+/* ABOUT SECTION */
+.about-section {
+  margin-top: 120px;
+  padding: 60px 80px;
+  background-color: #000000;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* PHOTO SECTION */
+.photo-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.photo-section img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #cf0303;
+  box-shadow: 0 0 15px #6b0000(0, 255, 0, 0.1);
+}
+
+/* BUTTON SECTION */
+.button-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  padding: 15px 40px;
+  background-color: #cf0303;
+  color: #fff;
+  border: 1px solid #cf0303;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #cf0303;
+}
+
+/* TECH STACK SECTION */
+.tech-stack {
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 80px;
+}
+
+.tech-stack p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.tech-stack img {
+  width: 60px;
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+
+.tech-stack img:hover {
+  transform: scale(1.1);
+}
+
+/* Worked With Section */
+.tech-section {
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 60px;
+}
+
+.tech-section p {
+  font-size: 18px;
+  color: #9c9c9c;
+  margin-bottom: 20px;
+}
+
+.tech-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.tech-logos img {
+  width: 60px;
+  height: auto;
+  transition: transform 0.3s ease;
+  filter: brightness(90%);
+}
+
+.tech-logos-only {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
+.tech-logos-only img {
+  width: 50px;
+  height: auto;
+  transition: transform 0.3s ease;
+  filter: brightness(90%);
+}
+
+.tech-logos-only img:hover {
+  transform: scale(1.1);
+  filter: brightness(110%);
+}
